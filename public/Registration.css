@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 400px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2d3436;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #2d3436;
+  margin-top: 10px;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #dfe6e9;
+  padding: 10px 15px;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #0984e3;
+  box-shadow: 0 0 5px rgba(9, 132, 227, 0.3);
+}
+
+.btn-primary {
+  background-color: #0984e3;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #74b9ff;
+  transform: scale(1.02);
+}
+
+.alert {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+}
+

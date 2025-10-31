@@ -1,0 +1,74 @@
+
+body {
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.4);
+}
+
+.btn-primary {
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  transition: background 0.4s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3, #0099cc);
+}
+
+a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
